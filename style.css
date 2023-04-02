@@ -1,0 +1,33 @@
+h1{
+    color: red;
+    border: 2px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.btn{
+color: red;
+}
+#click{
+    color: green;
+    background-color:green;
+    width: 3cm;
+    align-items:center;
+    padding: 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight: 800;
+    margin: 30px 30px 30px 200px ;
+    border: 2px solid black;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+#click:hover {
+    background-color: #a32323;
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
