@@ -1,0 +1,1 @@
+print("abcdef".ycenter(7,'1'))

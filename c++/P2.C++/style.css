@@ -1,0 +1,23 @@
+body{
+    background-color:  red;
+    color:  white;
+}
+div {
+    ..=
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after {
+    content:  'welcome to the demo'
+
+}
+
+
+@media (min-width: 900px) {
+
+    
+    body{
+         background-color:aquamarine
+    }
+}
