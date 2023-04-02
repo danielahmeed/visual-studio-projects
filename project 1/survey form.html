@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <style>
+      h1{
+        text-align: center;
+      }
+    </style>
+      
+    <h1><b>Survey Form</b></h1>
+    <style>
+        /* Center the form */
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        /* Style the list items */
+        li {
+          list-style: none;
+          margin-bottom: 10px;
+        }
+        
+        /* Style the labels */
+        label {
+          display: inline-block;
+          width: 100px;
+          text-align: right;
+          margin-right: 10px;
+        }
+        
+        /* Style the input fields */
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+          width: 200px;
+        }
+      </style>
+      
+      <form>
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </li>
+          <li>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+          </li>
+        </ul>
+        <input type="submit" value="Submit">
+    </form>
+    <form>
+      <label for="role" style="display: inline-block; white-space: nowrap;">Which option best describes your current role?</label>
+      <select id="role" name="role" style="display: inline-block;">
+        <option value="student">Student</option>
+        <option value="worker">Worker</option>
+        <option value="non-worker">Non-worker</option>
+      </select>
+      <br>
+      <label for="recommend" style="display: inline-block; white-space: nowrap;">How likely are you to recommend freeCodeCamp to a friend?</label>
+      <select id="recommend" name="recommend" style="display: inline-block;">
+        <option value="definitely">Definitely</option>
+        <option value="maybe">Maybe</option>
+        <option value="not-sure">Not sure</option>
+      </select>
+    </form>
+    <div style="text-align: center;">
+      <p>What do you like most in FCC?</p>
+      <select>
+        <option value="select">Select an option</option>
+        <option value="like">I like it</option>
+        <option value="dislike">I dislike it</option>
+        <option value="na">NA</option>
+      </select>
+    </div>
+    <div style="text-align: center;">
+      <p>Things should be improved in the future (check all that apply)</p>
+      <label><input type="checkbox" name="improvement" value="Fornt-end Projects">Fornt-end Projects</label><br>
+      <label><input type="checkbox" name="improvement" value="c">Back-end Projects</label><br>
+      <label><input type="checkbox" name="improvement" value="Data Visualisation">Data Visualisation</label><br>
+    </div>
+    
+</body>
+</html>
